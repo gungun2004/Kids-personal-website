@@ -1,5 +1,5 @@
 
-# My First Website About Horses
+# Kids website
 
 This website is published at [helloyogesh.info](https://helloyogesh.info/)
 
