@@ -1,0 +1,24 @@
+{
+  "name": "kids-personal-website",
+  "version": "1.0.0",
+  "description": "This is a simple website for kids that uses HTML Basics, CSS, and CSS animations. It is a great way to learn about HTML and CSS and to see how they can be used to create a fun and interactive website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gungun2004/Kids-personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gungun2004/Kids-personal-website/issues"
+  },
+  "homepage": "https://github.com/gungun2004/Kids-personal-website#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -135,6 +135,41 @@ ul li a:hover {
   color: #1b262c;
 }
 
+/* --- Navigation Bar --- */
+.navbar-header {
+	background-color: #004080; /* Dark blue background */
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+}
+
+.navbar-nav {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item {
+	margin: 0 15px;
+}
+
+.nav-link {
+	color: white; /* White text color */
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+	color: #ff9800; /* Orange color on hover */
+}
+
 /* --- Reusable Classes --- */
 hr {
   margin: 80px auto;

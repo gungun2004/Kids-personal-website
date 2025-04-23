@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+	background-color: #96bedb; /* Even lighter blue */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes bounceIn {
+	from {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes rotateIn {
+	from {
+		transform: rotate(-180deg);
+		opacity: 0;
+	}
+	to {
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+}
+
+/* Animation classes */
+.fadeIn {
+	animation: fadeIn 1.5s ease-in-out; /* Increased duration for subtle effect */
+}
+
+.slideUp {
+	animation: slideUp 1.5s ease-in-out; /* Increased duration for subtle effect */
+}
+
+.bounceIn {
+	animation: bounceIn 1.5s ease-out;
+}
+
+.rotateIn {
+	animation: rotateIn 1s ease-in-out;
+}
+
+/* Hover animations for images */
+img:hover {
+	transform: scale(1.05); /* Slightly enlarge the image */
+	transition: transform 0.3s ease-in-out;
+}
+
+/* Hover animations for text elements */
+h1:hover, h2:hover, h3:hover, p:hover, a:hover {
+	color: #ff9800; /* Change text color on hover */
+	transition: color 0.3s ease-in-out;
+}
+
+/* Hover animations for buttons */
+.btn:hover {
+	transform: scale(1.1); /* Slightly enlarge the button */
+	transition: transform 0.3s ease-in-out;
+}
+
+/* Hover animations for navigation and footer links */
+.nav-link:hover, .footer-link:hover {
+	color: #ff9800; /* Change color on hover */
+	transition: color 0.3s ease-in-out;
+}
+
+.footer-social-icons li a:hover {
+	transform: rotate(10deg); /* Add a slight rotation */
+	transition: transform 0.3s ease-in-out;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+	.navbar-nav {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.logo {
+		width: 80px;
+	}
+
+	.Intro h1 {
+		font-size: 24px;
+	}
+
+	.Intro p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar-nav {
+		font-size: 14px;
+	}
+
+	.Intro h1 {
+		font-size: 20px;
+	}
+
+	.Intro p {
+		font-size: 14px;
+	}
+}
